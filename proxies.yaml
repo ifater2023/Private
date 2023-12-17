@@ -1,0 +1,25 @@
+proxies:
+- name: Warp01
+  type: wireguard
+  server: 162.159.192.139
+  port: 859
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d79:4167:321e:8f1d:e806/128
+  private-key: 6FxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxFI=
+  public-key: bmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyo=
+  udp: true
+  mtu: 1280
+  remote-dns-resolve: true
+  dns: [1.1.1.1, 1.0.0.1]
+- name: Warp02
+  type: wireguard
+  server: 162.159.192.196
+  port: 934
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d79:4167:321e:8f1d:e806/128
+  private-key: 6FxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxFI=
+  public-key: bmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyo=
+  udp: true
+  mtu: 1280
+  remote-dns-resolve: true
+  dns: [1.1.1.1, 1.0.0.1]
