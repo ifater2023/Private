@@ -4,7 +4,6 @@ proxies:
   server: 162.159.192.167
   port: 4233
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8c16:acd4:7bc2:c4b4:ca5/128
   private-key: UK0m/fj0SNJiCioRVvOiM9kY8pg5QbhmXDnnCs7hHmE=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
@@ -16,7 +15,6 @@ proxies:
   server: 162.159.192.82
   port: 7281
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8b2c:488b:a6cf:368e:951e/128
   private-key: UKo1kIfJtGKIIxRbaJmxpqBImfUFyNB9hRAFL1qO+GQ=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
@@ -28,7 +26,6 @@ proxies:
   server: 162.159.195.149
   port: 894
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:806b:cd9a:b45b:fe88:70e/128
   private-key: IBNAB+1YWfLBn8BtUCWSg9u6JBLxBgqM34jBNYeaPUo=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
@@ -40,7 +37,6 @@ proxies:
   server: 162.159.195.172
   port: 894
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:86da:3929:cef8:2e4b:506c/128
   private-key: CIp874XZgEzamqchgX6Ame2Ho8jujPDNVDFO+AO6ZU0=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
@@ -52,7 +48,6 @@ proxies:
   server: 162.159.192.57
   port: 9559
   ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8c69:a5b0:9b6d:24b7:b829/128
   private-key: IPUR8SeJy6EaEQXnik5wRGC1Ip4qzKXuaDbwa+5t4HU=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   udp: true
