@@ -1,8 +1,8 @@
 proxies:
 - name: Warp-A
   type: wireguard
-  server: 104.19.207.35
-  port: 443
+  server: 162.159.192.167
+  port: 4233
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:8c16:acd4:7bc2:c4b4:ca5/128
   private-key: UK0m/fj0SNJiCioRVvOiM9kY8pg5QbhmXDnnCs7hHmE=
@@ -13,8 +13,8 @@ proxies:
   dns: [1.1.1.1, 1.0.0.1]
 - name: Warp-B
   type: wireguard
-  server: 104.16.227.11
-  port: 443
+  server: 162.159.192.82
+  port: 7281
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:8b2c:488b:a6cf:368e:951e/128
   private-key: UKo1kIfJtGKIIxRbaJmxpqBImfUFyNB9hRAFL1qO+GQ=
@@ -25,8 +25,8 @@ proxies:
   dns: [1.1.1.1, 1.0.0.1]
 - name: Warp-C
   type: wireguard
-  server: 104.19.40.108
-  port: 443
+  server: 162.159.195.149
+  port: 894
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:806b:cd9a:b45b:fe88:70e/128
   private-key: IBNAB+1YWfLBn8BtUCWSg9u6JBLxBgqM34jBNYeaPUo=
@@ -37,8 +37,8 @@ proxies:
   dns: [1.1.1.1, 1.0.0.1]
 - name: Warp-D
   type: wireguard
-  server: 104.16.171.17
-  port: 443
+  server: 162.159.195.172
+  port: 894
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:86da:3929:cef8:2e4b:506c/128
   private-key: CIp874XZgEzamqchgX6Ame2Ho8jujPDNVDFO+AO6ZU0=
@@ -49,8 +49,8 @@ proxies:
   dns: [1.1.1.1, 1.0.0.1]
 - name: Warp-E
   type: wireguard
-  server: 104.19.40.159
-  port: 8080
+  server: 162.159.192.57
+  port: 9559
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:8c69:a5b0:9b6d:24b7:b829/128
   private-key: IPUR8SeJy6EaEQXnik5wRGC1Ip4qzKXuaDbwa+5t4HU=
