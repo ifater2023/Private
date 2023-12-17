@@ -1,1 +1,25 @@
-cHJveGllczoKLSBuYW1lOiBXYXJwMDEKICB0eXBlOiB3aXJlZ3VhcmQKICBzZXJ2ZXI6IDE2Mi4xNTkuMTkyLjEzOQogIHBvcnQ6IDg1OQogIGlwOiAxNzIuMTYuMC4yCiAgaXB2NjogMjYwNjo0NzAwOjExMDo4ZDc5OjQxNjc6MzIxZTo4ZjFkOmU4MDYvMTI4CiAgcHJpdmF0ZS1rZXk6IDZGeHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4Rkk9CiAgcHVibGljLWtleTogYm14eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh5bz0KICB1ZHA6IHRydWUKICBtdHU6IDEyODAKICByZW1vdGUtZG5zLXJlc29sdmU6IHRydWUKICBkbnM6IFsxLjEuMS4xLCAxLjAuMC4xXQotIG5hbWU6IFdhcnAwMgogIHR5cGU6IHdpcmVndWFyZAogIHNlcnZlcjogMTYyLjE1OS4xOTIuMTk2CiAgcG9ydDogOTM0CiAgaXA6IDE3Mi4xNi4wLjIKICBpcHY2OiAyNjA2OjQ3MDA6MTEwOjhkNzk6NDE2NzozMjFlOjhmMWQ6ZTgwNi8xMjgKICBwcml2YXRlLWtleTogNkZ4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHhGST0KICBwdWJsaWMta2V5OiBibXh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHlvPQogIHVkcDogdHJ1ZQogIG10dTogMTI4MAogIHJlbW90ZS1kbnMtcmVzb2x2ZTogdHJ1ZQogIGRuczogWzEuMS4xLjEsIDEuMC4wLjFd
+proxies:
+- name: Warp01
+  type: wireguard
+  server: 162.159.192.139
+  port: 859
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d79:4167:321e:8f1d:e806/128
+  private-key: 6FxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxFI=
+  public-key: bmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyo=
+  udp: true
+  mtu: 1280
+  remote-dns-resolve: true
+  dns: [1.1.1.1, 1.0.0.1]
+- name: Warp02
+  type: wireguard
+  server: 162.159.192.196
+  port: 934
+  ip: 172.16.0.2
+  ipv6: 2606:4700:110:8d79:4167:321e:8f1d:e806/128
+  private-key: 6FxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxFI=
+  public-key: bmxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyo=
+  udp: true
+  mtu: 1280
+  remote-dns-resolve: true
+  dns: [1.1.1.1, 1.0.0.1]
