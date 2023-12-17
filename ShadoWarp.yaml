@@ -49,8 +49,8 @@ proxies:
   dns: [1.1.1.1, 1.0.0.1]
 - name: Warp-E
   type: wireguard
-  server: 188.114.99.143
-  port: 2408
+  server: 162.159.195.182
+  port: 1180
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:8c69:a5b0:9b6d:24b7:b829/128
   private-key: IPUR8SeJy6EaEQXnik5wRGC1Ip4qzKXuaDbwa+5t4HU=
