@@ -1,8 +1,8 @@
 proxies:
 - name: Warp-A
   type: wireguard
-  server: 104.19.207.35
-  port: 443
+  server: 104.19.100.217
+  port: 8443
   ip: 172.16.0.2/32
   ipv6: 2606:4700:110:8c16:acd4:7bc2:c4b4:ca5/128
   private-key: UK0m/fj0SNJiCioRVvOiM9kY8pg5QbhmXDnnCs7hHmE=
