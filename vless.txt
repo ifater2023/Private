@@ -1,4 +1,4 @@
-vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@[2606:4700::]:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#IPV6%E4%B8%93%E7%BA%BF
+vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@[2606:4700::]:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#IPV6
 vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@193.123.224.89:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#Tokyo%2001
 vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@162.159.61.189:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#America%2001
 vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@104.18.227.137:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#America%2002
