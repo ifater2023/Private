@@ -1,5 +1,27 @@
-vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@[2606:4700::]:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#IPV6
-vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@193.123.224.89:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#Tokyo%2001
-vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@162.159.61.189:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#America%2001
-vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@104.18.227.137:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#America%2002
-vless://cc03c1d4-367f-4d69-bc20-4853ac55df91@104.19.180.131:8880?encryption=none&security=none&type=ws&host=selectvless.ifater2023.workers.dev&path=%2F%3Fed%3D2048#America%2003
+proxies:
+- name:IPV6
+  server: selectvless.ifater2023.workers.dev
+  port: 8880
+  client-fingerprint: random
+  type: vless
+  uuid: 384f01c1-d384-4858-9521-3944252dd459
+  tls: false
+  tfo: false
+  servername: selectvless.ifater2023.workers.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts: {path: "/?ed=2048", headers: {Host: selectvless.ifater2023.workers.dev}}
+  udp: true
+- name:IPV6
+  server: selectvless.ifater2023.workers.dev
+  port: 8880
+  client-fingerprint: random
+  type: vless
+  uuid: 384f01c1-d384-4858-9521-3944252dd459
+  tls: false
+  tfo: false
+  servername: selectvless.ifater2023.workers.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts: {path: "/?ed=2048", headers: {Host: selectvless.ifater2023.workers.dev}}
+  udp: true
