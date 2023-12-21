@@ -1,12 +1,2 @@
 proxies:
-- name:IPV6
-  server: selectvless.ifater2023.workers.dev
-  port: 8880
-  client-fingerprint: random
-  type: vless
-  uuid: 384f01c1-d384-4858-9521-3944252dd459
-  tls: false
-  tfo: false
-  servername: selectvless.ifater2023.workers.dev
-  skip-cert-verify: true
-  network: ws
+  - {name: selectvless.ifater2023.workers.dev-HTTP-80, server: selectvless.ifater2023.workers.dev, port: 80, client-fingerprint: random, type: vless, uuid: 384f01c1-d384-4858-9521-3944252dd459, tls: false, tfo: false, servername: selectvless.ifater2023.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: selectvless.ifater2023.workers.dev}}, udp: true}
