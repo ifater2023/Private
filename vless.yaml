@@ -1,2 +1,1 @@
-proxies:
-  - {name: IPV6, server: 2606:4700::, port: 8880, client-fingerprint: random, type: vless, uuid: cc03c1d4-367f-4d69-bc20-4853ac55df91, tls: false, tfo: false, servername: selectvless.ifater2023.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: selectvless.ifater2023.workers.dev}}, udp: true}
+dmxlc3M6Ly9ZMk13TTJNeFpEUXRNelkzWmkwMFpEWTVMV0pqTWpBdE5EZzFNMkZqTlRWa1pqa3hRRnN5TmpBMk9qUTNNREE2T2wwNk9EZzRNRDlsYm1OeWVYQjBhVzl1UFc1dmJtVW1jMlZqZFhKcGRIazlibTl1WlNaMGVYQmxQWGR6Sm1odmMzUTljMlZzWldOMGRteGxjM011YVdaaGRHVnlNakF5TXk1M2IzSnJaWEp6TG1SbGRpWndZWFJvUFNVeVJpVXpSbVZrSlRORU1qQTBPQ05KVUZZMkpVVTBKVUk0SlRrekpVVTNKVUpCSlVKRw==
