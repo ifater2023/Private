@@ -92,6 +92,9 @@ payload:
   # MisakaF
   - DOMAIN-SUFFIX,misakaf.org
 
+  # 叔服
+  - DOMAIN-KEYWORD,mcjoker
+  
   # mjjemby
   - DOMAIN-SUFFIX,mjjemby.org
 
